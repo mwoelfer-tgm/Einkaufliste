@@ -22,10 +22,7 @@ export default class Todo extends React.PureComponent<Props,State> {
     }
 
     componentDidMount(){
-        Animated.timing(this.animatedValue, {
-            toValue: this.props.item.bought == true ? 150 : 0,
-            duration: 500
-        }).start()
+        
     }
 
     toggleBought() {
@@ -48,6 +45,11 @@ export default class Todo extends React.PureComponent<Props,State> {
             inputRange: [0, 150],
             outputRange: ['rgb(255,255,255)', 'rgb(0, 255, 0)']
         })
+
+        Animated.timing(this.animatedValue, {
+            toValue: this.props.item.bought == true ? 150 : 0,
+            duration: 500
+        }).start()
         return (
             <TouchableOpacity
                 onPress={() => this.toggleBought()}
