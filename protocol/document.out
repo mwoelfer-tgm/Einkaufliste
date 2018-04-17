@@ -2,4 +2,25 @@
 \BOOKMARK [2][-]{subsection.1.1}{Ziele}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Voraussetzungen}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.3}{Aufgabenstellung}{section.1}% 4
-\BOOKMARK [1][-]{section.2}{Ergebnisse}{}% 5
+\BOOKMARK [2][-]{subsection.1.4}{Bewertung}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Abgabe}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Ergebnisse}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Anforderungen}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Firebase}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Cloud Firestore}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Datenmodell}{subsection.2.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Synchronisation}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Schnittstellen}{subsection.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.3}{Alternative Technologien}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.4}{Umsetzung}{section.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Projekt aufsetzen}{subsection.2.4}% 16
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Firebase Projekt anlegen}{subsection.2.4}% 17
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Daten einf\374gen}{subsection.2.4}% 18
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Daten anzeigen}{subsection.2.4}% 19
+\BOOKMARK [3][-]{subsubsection.2.4.5}{Daten auslesen}{subsection.2.4}% 20
+\BOOKMARK [3][-]{subsubsection.2.4.6}{Daten l\366schen}{subsection.2.4}% 21
+\BOOKMARK [3][-]{subsubsection.2.4.7}{Daten \344ndern}{subsection.2.4}% 22
+\BOOKMARK [3][-]{subsubsection.2.4.8}{Replikation zur Konsistenzwahrung}{subsection.2.4}% 23
+\BOOKMARK [3][-]{subsubsection.2.4.9}{Offline-Verf\374gbarkeit}{subsection.2.4}% 24
+\BOOKMARK [3][-]{subsubsection.2.4.10}{\326ffentlich ansprechbar}{subsection.2.4}% 25
+\BOOKMARK [3][-]{subsubsection.2.4.11}{Kosten}{subsection.2.4}% 26

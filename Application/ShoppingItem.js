@@ -28,8 +28,7 @@ export default class Todo extends React.PureComponent<Props,State> {
         }).start()
     }
 
-    // toggle a todo as completed or not via update()
-    toggleComplete() {
+    toggleBought() {
         this.props.item.doc.ref.update({
             bought: !this.props.item.bought,
         });
@@ -43,6 +42,7 @@ export default class Todo extends React.PureComponent<Props,State> {
         this.props.item.doc.ref.delete()
     }
 
+
     render() {
         const interpolateColor = this.animatedValue.interpolate({
             inputRange: [0, 150],
@@ -50,7 +50,7 @@ export default class Todo extends React.PureComponent<Props,State> {
         })
         return (
             <TouchableOpacity
-                onPress={() => this.toggleComplete()}
+                onPress={() => this.toggleBought()}
                 onLongPress={() => this.delete()}
             >
                 <Animated.View style={{ flex: 1, height: 48, flexDirection: 'row', alignItems: 'center', backgroundColor:interpolateColor}}>

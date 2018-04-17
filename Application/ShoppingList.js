@@ -40,7 +40,6 @@ class ShoppingList extends React.Component<Props, State> {
         
         snap.forEach((el) => {
             let { title, bought} = el.data()
-            console.log("title", title)
             let key : number = el.id
             shoppingList.push({
                 key: key,
